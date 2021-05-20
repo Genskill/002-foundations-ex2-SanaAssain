@@ -10,22 +10,23 @@ int c= get_int(" Side 3:");
 
 if(a>b && a>c){
     if(b*b + c*c == a*a)
-      printf("Yes\n");
+      printf("Passed\n");
     else
-      printf("No\n");
+      printf("Failed\n");
 
 
   }    
  else if(b>a && b>c){
     if(a*a +c*c == b*b)
-       printf("Yes\n");
+       printf("Passed\n");
     else
-       printf("No\n");            
+       printf("Failed\n");            
  }
  else if(c>a && c>b){
     if(b*b + a*a == c*c)
-      printf("Yes\n");
+      printf("Passed\n");
     else
-      printf("No\n");
+      printf("Failed\n");
  }
+ printf("All good");
 }
