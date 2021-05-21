@@ -4,9 +4,9 @@
 #include<cs50.h>
 
 int main(void){
-float a= get_int("Side 1 ");
-float b= get_int("\nSide 2 ");
-float c= get_int("\nSide 3 ");
+float a= get_float("Side 1 ");
+float b= get_float("\nSide 2 ");
+float c= get_float("\nSide 3 ");
 
 if(a>b && a>c){
     if(b*b + c*c == a*a)
