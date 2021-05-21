@@ -1,12 +1,10 @@
-//pythagorean.c
-
 #include<stdio.h>
 #include<cs50.h>
 
 int main(void){
 int a= get_int(" Side 1:");
 int b= get_int(" Side 2:");
-float c= get_int(" Side 3:");
+int c= get_int(" Side 3:");
 
 if(a>b && a>c){
     if(b*b + c*c == a*a)
