@@ -9,12 +9,13 @@ int main(void){
 		int row = get_int("Number of rows");
 		pyramid_f(row);
 	}
-	else{
-		if(ch == 2){
+	else if(ch == 2){
 			int row = get_int("Number of rows");
 			pyramid_s(row);
 			}
-		}
+	else{
+		printf("\nSorry, wrong input");
+	    }
 	return 0;
 }
 
