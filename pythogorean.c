@@ -4,29 +4,28 @@
 #include<cs50.h>
 
 int main(void){
-int a= get_int(" Side 1:");
-int b= get_int(" Side 2:");
-int c= get_int(" Side 3:");
+float a= get_int("Side 1 ");
+float b= get_int("\nSide 2 ");
+float c= get_int("\nSide 3 ");
 
 if(a>b && a>c){
     if(b*b + c*c == a*a)
-      printf("Passed\n");
+      printf("\nYes");
     else
-      printf("Failed\n");
+      printf("\nNo");
 
 
   }    
  else if(b>a && b>c){
     if(a*a +c*c == b*b)
-       printf("Passed\n");
+       printf("\nYes");
     else
-       printf("Failed\n");            
+       printf("\nNo");            
  }
  else if(c>a && c>b){
     if(b*b + a*a == c*c)
-      printf("Passed\n");
+      printf("\nYes");
     else
-      printf("Failed\n");
+      printf("\nNo");
  }
- printf("All good");
 }
