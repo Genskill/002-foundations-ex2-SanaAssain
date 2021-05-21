@@ -6,16 +6,13 @@ void pyramid_s(int);
 int main(void){
 	int ch = get_int("Enter type of pattern (1 or 2) ");
 	if (ch == 1){
-		int row = get_int("Number of rows");
+		int row = get_int("\nNumber of rows ");
 		pyramid_f(row);
 	}
 	else if(ch == 2){
-			int row = get_int("Number of rows");
+			int row = get_int("\nNumber of rows ");
 			pyramid_s(row);
 			}
-	else{
-		printf("\nSorry, wrong input");
-	    }
 	return 0;
 }
 
